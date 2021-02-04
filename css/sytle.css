@@ -461,3 +461,62 @@ font-size: 1rem;
     color: white;
     line-height: 2;
 }
+
+/* Footer Section css */
+#footer{
+    width: 100%;
+    padding: 50px 0 20px;
+    background-color: rgb(19, 11, 11);
+}
+
+#footer > .content-width > .footer-section>.footer-section1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#footer > .content-width > .footer-section >.footer-section1>.footer-logo > h1{
+ text-transform: uppercase;
+ font-size: 2rem;
+ font-weight: 600;
+}
+#footer > .content-width > .footer-section >.footer-section1 >.footer-logo > h1 >span{
+color: #fdd655
+}
+
+#footer > .content-width > .footer-section >.footer-section1> nav > ul{
+    list-style:none;
+    display: flex;
+}
+#footer > .content-width > .footer-section >.footer-section1> nav > ul > li >a{
+    text-decoration: none;
+    color: aliceblue;
+    display: inline-block;
+    padding: 0px 20px;
+}
+#footer > .content-width > .footer-section >.footer-section1> nav > ul > li >a:after{
+    content: '';
+    width: 0px;
+    height: 2px;
+    background-color: #fdd655;
+    position: relative;
+    display: block;
+    transition: .5s;
+
+}
+#footer > .content-width > .footer-section >.footer-section1> nav > ul > li >a:hover:after{
+    width: 100%;
+}
+#footer > .content-width > .footer-section >.footer-section1{
+    border-bottom: 3px solid white;
+    padding: 20px 0px;
+}
+#footer > .content-width > .footer-section >.footer-section2{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding-top: 10px;
+}
+#footer > .content-width > .footer-section >.footer-section2 > p > span{
+    font-weight: 600;
+}
