@@ -384,10 +384,80 @@ width: 48%;
 .UseCase-btn{
     margin-top: 30px;
 }
+
+/* Contact Section */
 #Contact{
     padding: 100px 0px;
 }
 #Contact > .content-width > .contact-section {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-form{
+    width: 450px;
+}
+#Contact > .content-width > .contact-section> .contact-form > #contactForm{
+    background-color: black;
+    padding: 40px;
+}
+
+#Contact > .content-width > .contact-section> .contact-form > #contactForm > input,
+#Contact > .content-width > .contact-section> .contact-form > #contactForm > textarea,
+#Contact > .content-width > .contact-section> .contact-form > #contactForm > button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-transform: uppercase;
+    outline: none;
+    margin-top: 10px ;
+    border: none;
+
+}
+
+
+#Contact > .content-width > .contact-section> .contact-form > #contactForm > input,
+#Contact > .content-width > .contact-section> .contact-form > #contactForm > textarea{
+background-color: rgb(19, 18, 18);
+color: wheat;
+}
+
+#Contact > .content-width > .contact-section> .contact-form > #contactForm > button{
+background-color: #3e2723;
+color: wheat;
+font-weight: 600;
+font-size: 1rem;
+
+}
+
+
+/* map section */
+
+#Contact > .content-width >.contact-section > .roadMad > h1{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+#Contact > .content-width >.contact-section > .roadMad > h1:after{
+    content: '';
+    background-color: #fdd655;
+    width: 21px;
+    height: 12px;
+    display: block;
+    transition: .5s;  
+}
+
+#Contact > .content-width >.contact-section > .roadMad > h1:hover:after{
+    width: 45%;
+}
+
+
+#Contact > .content-width >.contact-section > .roadMad > h1 > span{
+    color: #fdd655;
+}
+#Contact > .content-width >.contact-section > .roadMad > p{
+    color: white;
+    line-height: 2;
 }
