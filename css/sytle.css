@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background-color: rgb(15, 15, 15);
+    color: blanchedalmond;
+    overflow-x: hidden;
+    
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+p{
+    color: #fdd655;
+}
+
+.content-width{
+    width: 85%;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(26, 25, 25, 0.85)), url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.top-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 85%;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 50%;
+}
+.logo > h1{
+    text-transform: uppercase;
+}
+.logo >h1 >span{
+    color: #fdd655
+}
+.top-header > nav > ul{
+    display: flex;
+    list-style: none;
+}
+.top-header > nav > ul > li > a{
+    text-decoration: none;
+    display: inline-block;
+    color: blanchedalmond;
+    padding: 0px 20px 5px 20px;
+    position: relative;
+}
+.top-header > nav > ul > li > a:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fdd655;
+    transition: all .5s;
+}
+
+.top-header > nav > ul > li:hover > a:after{
+width: 50%;
+}
+
+/* product content  css*/
+/* ..................... */
+
+.product_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 0 100px ;
+    width: 100%;
+    
+}
+.product_content{
+    width: 50%;
+    margin: 0;
+}
+
+.product_content > h1{
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+
+.product_content > p{
+    margin: 20px 0 20px;
+}
+.product_section > .product_content > .product_btn{
+    margin-top: 30px;
+}
+
+.product_section > .product_content > .product_btn > a{
+    text-decoration:  none;
+    display: inline-block;
+    font-weight: 500;
+    padding: 20px 50px;
+
+}
+.product_section > .product_content > .product_btn > a:nth-child(1){
+    background-color: #3e2723;
+    margin: 0 20px 0 0;
+    color: white;
+}
+
+
+.product_section > .product_content > .product_btn > a:nth-child(2){
+    color: white;
+    border: 2px solid #fdd655;
+    border-radius: 2px;
+}
+/* about section css */
+
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+}
+.about-img{
+    width: 500px;
+}
+.about-content {
+    width: 50%;
+    
+}
+.about-content > h1 > span{
+    color: #fdd655
+}
+.about-content > P {
+    line-height: 1.2;
+    color: white;
+    margin-top: 10px    ;
+}
+.about-content > h1 {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.about-content > h1:after {
+    content: '';
+    position: absolute;
+    background-color: #fdd655;
+    width: 40px;
+    height: 12px;
+    bottom: 0px;
+    left: 0;
+    transition: all 1.2s;
+    
+  
+    
+}
+.about-content > h1:hover:after {
+width: 48%;
+}
+
+/* section 2 */
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 2px solid white;
+    margin: 50px 0px; 
+}
+.section2 > .about-detail{
+    transition: .5s;
+    padding: 30px;
+}
+.section2 > .about-detail:hover{
+    transform: translateY(-10px);
+}
+
+.section2 > .about-detail > span:nth-child(1){
+    font-size:  2rem;
+    font-weight: 600;
+    color: #fdd655
+}
+
+.section2 > .about-detail > span:nth-child(2){
+    font-size:  1.5rem;
+    font-weight: 600;
+    
+}
+#Sales{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(26, 25, 25, 0.85)), url('../images/about-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+    padding: 50px 0px;
+}
+
+
+#Sales  .sales-content{
+    text-align: center;
+}
+
+#Sales  .sales-content > h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 3rem;
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    display: inline-block;
+    
+}
+#Sales  .sales-content > h1:after {
+    content: '';
+    position: absolute;
+    background-color: #fdd655;
+    width: 41px;
+    height: 12px;
+    bottom: 0;
+    left: 0;
+    transition: 1.2s;
+}
+#Sales  .sales-content > h1:hover:after {
+    width: 38%;
+}
+#Sales  .sales-content > h1 > span {
+    color:#fdd655
+}
+#Sales .sales-content > p{
+    color: white
+}
+
+#Sales .timer-count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    margin: 50px 0px;
+}
+#Sales .timer-count > div{
+    padding: 0px 20px;
+}
+#Sales .timer-count > #Hours{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+#Sales .sales-content> .timer-count > #Minutes{
+    border-right: 1px solid white;
+}
+
+#Sales .sales-content> .timer-count > div{
+    padding: 0px 20px;
+}
+
+#Sales .sales-content> .timer-count > div:after{
+    content: '';
+    position: relative;
+    font-size: 15px;
+    display: block;
+    color: #fdd655;
+    }
+#Sales .sales-content> .timer-count > #day:after{
+    content: 'Days';
+}
+#Sales .sales-content> .timer-count > #Hours:after{
+    content: 'Hours';
+}
+#Sales .sales-content> .timer-count > #Minutes:after{
+    content: 'Minutes';
+}
+#Sales .sales-content> .timer-count > #Seconds:after{
+    content: 'Seconds';
+}
+#Sales .sales-content > ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Sales .sales-content > ul > li  {
+    padding: 10px 20px;
+}
+#Sales .sales-content > ul > li >a {
+ text-decoration: none;
+ color: white;
+ font-size: 2rem;
+
+}
+
+/* UseCase Section */
+
+#UseCase{
+    padding: 100px 0px;
+}
+#UseCase >.content-width >.UseCase-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#UseCase >.content-width >.UseCase-section > .UseCase-content{
+    width: 50%; 
+}
+
+.UseCase-content > h1:after{
+    content: '';
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 12px;
+    background-color: #fdd655 ;
+    transition: .5s;
+}
+
+.UseCase-content > h1:hover:after{
+    width: 12%;
+}
+
+.UseCase-content > h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.UseCase-content > h1 >span {
+    color:#fdd655
+}
+.UseCase-content >h3{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+.UseCase-content{
+    width: 50%;
+}
+.UseCase-img {
+    position: relative;
+    width: 500px;
+}
+.UseCase-img > img{
+    transform: rotate(-12deg); 
+    position: relative; 
+}
+.img-border{
+    border: 10px solid #fdd655;
+    transform: rotate(15deg);
+    height: 70%;
+    width: 70%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    opacity: .5;
+    z-index: -1
+}
+.UseCase-btn > a{
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 30px;
+    color: white;
+    border: 1px solid #fdd655;
+    text-decoration: none;
+
+}
+.UseCase-btn{
+    margin-top: 30px;
+}
+#Contact{
+    padding: 100px 0px;
+}
+#Contact > .content-width > .contact-section {
+    display: flex;
+    justify-content: space-between;
+}
