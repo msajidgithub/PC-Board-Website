@@ -1,0 +1,147 @@
+@media  (max-width: 1180px) {
+    
+.product_content{
+    width: 40%;
+    margin: 0;
+}
+
+.product_content > h1{
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.product_content > h1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.product_section > .product_content > .product_btn > a{
+    text-decoration:  none;
+    display: inline-block;
+    font-weight: 500;
+    padding: 20px 30px;
+
+}
+
+
+/* about section */
+
+.about-img{
+    width: 350px;
+}
+.about-content {
+    width: 50%;
+    
+}
+
+.about-content > h1 {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+/* usecase */
+
+.UseCase-content > h1 {
+    font-weight: 400;
+    font-size: 2rem;
+}
+.UseCase-content > h1 >span {
+    color:#fdd655
+}
+.UseCase-content >h3{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.UseCase-content{
+    width: 50%;
+}
+.UseCase-img {
+    position: relative;
+    width: 380px;
+}
+.UseCase-img > img{
+width: 300px;
+}
+
+
+.top-header > nav > ul > li > a{
+    padding: 0px 15px 5px 15px ;
+    font-size: 1rem;
+}
+.product_img > img{
+    width: 450px;
+    height: 450px;
+}
+}
+
+
+@media (max-width: 1075px){
+
+.product_section{
+display: block;
+display: flex;
+}
+.product_content{
+    text-align: center;
+}
+
+/* about section */
+
+.about-img{
+    width: 350px;
+}
+.about-content {
+    width: 50%;
+    
+}
+
+.about-content > h1 {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+/* usecase */
+
+.UseCase-content > h1 {
+    font-weight: 400;
+    font-size: 2rem;
+}
+.UseCase-content > h1 >span {
+    color:#fdd655
+}
+.UseCase-content >h3{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.UseCase-content{
+    width: 50%;
+}
+.UseCase-img {
+    position: relative;
+    width: 380px;
+}
+.UseCase-img > img{
+width: 300px;
+}
+
+
+.top-header > nav > ul > li > a{
+    padding: 0px 15px 5px 15px ;
+    font-size: 1rem;
+}
+.product_img > img{
+    width: 450px;
+    height: 450px;
+}
+}
+
+
