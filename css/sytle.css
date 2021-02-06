@@ -68,6 +68,7 @@ header{
 }
 .logo > h1{
     text-transform: uppercase;
+    color: white
 }
 .logo >h1 >span{
     color: #fdd655
@@ -614,5 +615,20 @@ justify-content: space-around;
     width: 100%;
     margin-top: 10px;
     }
+
+}
+
+/* jQuery Effect */
+.top-header.nav-effect{
+    background-color: gray;
+    opacity: .85;
+    padding: 20px;
+    z-index: 999999;
+    transition: all .5s ease-in-out;
+}
+.top-header.nav-effect>.logo>h1{
+    font-size: 2rem;
+    transition: all .5s ease-in-out;
+
 
 }
